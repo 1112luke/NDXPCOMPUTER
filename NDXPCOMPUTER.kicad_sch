@@ -1,5 +1,252 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "880cd2ad-ee8a-45d0-bf92-2f93a861aac0")
+	(paper "A4")
+	(title_block
+		(title "NDXP Computer")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(text "Barometer"
+		(exclude_from_sim no)
+		(at 216.662 89.916 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "47e5abcf-37aa-49ac-9122-a522670b41bd")
+	)
+	(text "Low-G IMU"
+		(exclude_from_sim no)
+		(at 213.36 56.896 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "54ee0cab-4af0-479a-a15a-7c327eba076c")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 139.954 72.39 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "afa0a4ea-9e23-4dc2-9719-41b6bfebd168")
+	)
+	(text "High-G IMU"
+		(exclude_from_sim no)
+		(at 214.122 24.892 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "b7c75cce-8e53-462c-be97-288547ffa0f2")
+	)
+	(text "GPS\n"
+		(exclude_from_sim no)
+		(at 209.55 129.032 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "fb9471b3-e357-48b6-ab2a-9f8e0e5bc123")
+	)
+	(sheet
+		(at 207.01 130.81)
+		(size 25.4 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16e7959a-598a-4fd4-86dd-9806303f6b27")
+		(property "Sheetname" "NEO-M9N"
+			(at 215.9 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NEO-M9N.kicad_sch"
+			(at 207.01 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 91.44)
+		(size 20.32 27.94)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e45f0a4-a72d-4462-856f-94f2b8339a46")
+		(property "Sheetname" "BMP280"
+			(at 213.36 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMP280.kicad_sch"
+			(at 208.28 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 26.67)
+		(size 27.94 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad9d4e19-de45-4b5d-9d67-5d499159c63b")
+		(property "Sheetname" "BMI088"
+			(at 214.122 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMI088.kicad_sch"
+			(at 204.47 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 73.66)
+		(size 40.64 55.88)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb1b5cf1-a55c-42cc-b365-bf5ffcf1d58e")
+		(property "Sheetname" "STM32H7"
+			(at 150.876 102.362 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32H7.kicad_sch"
+			(at 137.16 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 58.42)
+		(size 27.94 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8f502cd-6130-4105-9076-c7ac7eb5037b")
+		(property "Sheetname" "LSM6DSM"
+			(at 214.122 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LSM6DSM.kicad_sch"
+			(at 204.47 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
