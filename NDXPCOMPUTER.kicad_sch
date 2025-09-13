@@ -71,7 +71,7 @@
 		)
 		(uuid "16e7959a-598a-4fd4-86dd-9806303f6b27")
 		(property "Sheetname" "NEO-M9N"
-			(at 215.9 145.034 0)
+			(at 214.122 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,6 +92,43 @@
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 40.64)
+		(size 25.4 22.86)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1713f0c2-87c4-4fc3-9379-51a871bad33e")
+		(property "Sheetname" "Power"
+			(at 91.694 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 82.55 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "7")
 				)
 			)
 		)
@@ -145,7 +182,7 @@
 		)
 		(uuid "ad9d4e19-de45-4b5d-9d67-5d499159c63b")
 		(property "Sheetname" "BMI088"
-			(at 214.122 39.624 0)
+			(at 214.122 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
