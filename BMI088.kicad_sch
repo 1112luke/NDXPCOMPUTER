@@ -800,7 +800,7 @@
 	)
 	(text "Protocol Select\nGND for SPI"
 		(exclude_from_sim no)
-		(at 115.062 70.358 0)
+		(at 115.062 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
