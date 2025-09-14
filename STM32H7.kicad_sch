@@ -2798,6 +2798,54 @@
 			)
 		)
 	)
+	(hierarchical_label "SDO_GYRO"
+		(shape input)
+		(at 148.59 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "107c94d0-0bcb-41de-a0d6-482caf8b15e1")
+	)
+	(hierarchical_label "SDI_GYRO"
+		(shape input)
+		(at 148.59 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "597502d4-8e3f-4031-bd3a-820cb54dbb3b")
+	)
+	(hierarchical_label "SCK_GYRO"
+		(shape input)
+		(at 148.59 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fd1fa47-f188-44bd-9a28-7cef25191214")
+	)
+	(hierarchical_label "CS_GYRO"
+		(shape input)
+		(at 148.59 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d80e913e-e3d9-48f2-8e71-0b6abd72e4f7")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H723VGTx")
 		(at 123.19 93.98 0)

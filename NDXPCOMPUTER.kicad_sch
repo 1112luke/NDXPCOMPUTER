@@ -9,6 +9,126 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11482e62-e5d6-4222-97e4-4efa3ad9ef14")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 195.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f5fe7f-f2e7-46fe-a945-454244d88b59")
+	)
+	(wire
+		(pts
+			(xy 195.58 34.29) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2201fb8e-0f18-44f6-93e7-e5e477676de2")
+	)
+	(wire
+		(pts
+			(xy 190.5 22.86) (xy 204.47 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293941f4-1b80-44bf-a527-85146db23ee6")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 193.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c14342a-f09f-481b-92d7-feee1fdb5ffb")
+	)
+	(wire
+		(pts
+			(xy 198.12 82.55) (xy 198.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ef0def-c16b-4c90-94b4-a2f10e06e007")
+	)
+	(wire
+		(pts
+			(xy 193.04 30.48) (xy 204.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525d5c42-e239-48c8-ae3b-75f6e631b3bb")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73513434-b638-4bc1-8fec-1c6b97f23e24")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78b7606-dff9-4474-81b4-3796b0cf158e")
+	)
+	(wire
+		(pts
+			(xy 190.5 22.86) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be65df2f-057b-4331-8f10-a12382c3fec6")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d0bf1d-f63a-4aae-b6bb-9bf056f4570c")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b6fc8e-cb47-4802-900e-4980bd265f4f")
+	)
 	(text "Barometer"
 		(exclude_from_sim no)
 		(at 216.662 89.916 0)
@@ -21,7 +141,7 @@
 	)
 	(text "Low-G IMU"
 		(exclude_from_sim no)
-		(at 213.36 56.896 0)
+		(at 213.614 57.912 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -41,7 +161,7 @@
 	)
 	(text "High-G IMU"
 		(exclude_from_sim no)
-		(at 214.122 24.892 0)
+		(at 214.122 17.272 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -145,7 +265,7 @@
 		)
 		(uuid "5e45f0a4-a72d-4462-856f-94f2b8339a46")
 		(property "Sheetname" "BMP280"
-			(at 213.36 106.934 0)
+			(at 214.376 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,8 +291,8 @@
 		)
 	)
 	(sheet
-		(at 204.47 26.67)
-		(size 27.94 22.86)
+		(at 204.47 19.05)
+		(size 27.94 33.02)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -182,7 +302,7 @@
 		)
 		(uuid "ad9d4e19-de45-4b5d-9d67-5d499159c63b")
 		(property "Sheetname" "BMI088"
-			(at 214.122 38.1 0)
+			(at 214.63 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,13 +311,93 @@
 			)
 		)
 		(property "Sheetfile" "BMI088.kicad_sch"
-			(at 204.47 50.1146 0)
+			(at 203.962 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CS_GYRO" input
+			(at 204.47 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afdad376-1230-4c27-9db2-023c823a0aa9")
+		)
+		(pin "CS_ACCEL" input
+			(at 204.47 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cef0264-5c9e-4261-8990-45e6995fa1d2")
+		)
+		(pin "SCK" input
+			(at 204.47 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0bfa251-9188-426c-b0d4-717467979a8c")
+		)
+		(pin "SDI" input
+			(at 204.47 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b20cebfa-82bd-4a37-a398-651589907d21")
+		)
+		(pin "SDO_ACCEL" input
+			(at 204.47 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9cc77d1-6982-4d10-9173-b46f8caefb79")
+		)
+		(pin "SDO_GYRO" input
+			(at 204.47 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3da39ff6-a730-453e-9d14-bdb5853bd809")
+		)
+		(pin "ACCEL_INT" input
+			(at 204.47 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c12de844-2e19-4f8d-9b63-d6ad2bdd66cf")
+		)
+		(pin "GYRO_INT" input
+			(at 204.47 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e896dcb-5d21-4109-aa06-b01064d1faa0")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -236,6 +436,46 @@
 				(justify left top)
 			)
 		)
+		(pin "CS_GYRO" input
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c736ed21-21c4-4d16-ad72-65c37376055e")
+		)
+		(pin "SCK_GYRO" input
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62635997-f90e-4610-8ac3-14b3525b9cea")
+		)
+		(pin "SDI_GYRO" input
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8706506f-df4d-4092-a2ae-a748dd49deed")
+		)
+		(pin "SDO_GYRO" input
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bddcf1a2-f929-4cfb-bd8d-468226de16ed")
+		)
 		(instances
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
@@ -245,7 +485,7 @@
 		)
 	)
 	(sheet
-		(at 204.47 58.42)
+		(at 204.47 59.69)
 		(size 27.94 22.86)
 		(stroke
 			(width 0.1524)
@@ -256,7 +496,7 @@
 		)
 		(uuid "f8f502cd-6130-4105-9076-c7ac7eb5037b")
 		(property "Sheetname" "LSM6DSM"
-			(at 214.122 71.374 0)
+			(at 214.122 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -265,7 +505,7 @@
 			)
 		)
 		(property "Sheetfile" "LSM6DSM.kicad_sch"
-			(at 204.47 81.8646 0)
+			(at 204.47 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
