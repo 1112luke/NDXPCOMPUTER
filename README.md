@@ -6,7 +6,7 @@
   <img src="https://github.com/user-attachments/assets/a07edbf1-1d92-4fb3-bd18-ec18c30b36fb"></img>
 </p>
 
-#### This is the repository for the HARDWARE DESIGN ONLY. Software for the computer can be found [here](https://github.com/1112luke/NDXP_COMPUTER_SOFTWARE)
+<h4>This is the repository for the HARDWARE DESIGN ONLY. Software for the computer can be found <a href="https://google.com">here</a></h4>
 
 ## Introduction
 
