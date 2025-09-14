@@ -3,10 +3,8 @@
 ## <u>F.E.R.B (For Every Rocketry Build) 🤓</u>
 
 <p align="center">
-  ![ferb-dancing](https://github.com/user-attachments/assets/a07edbf1-1d92-4fb3-bd18-ec18c30b36fb)
+  <img src="![ferb-dancing](https://github.com/user-attachments/assets/a07edbf1-1d92-4fb3-bd18-ec18c30b36fb)"></img>
 </p>
-
-![ferb-dancing](https://github.com/user-attachments/assets/a07edbf1-1d92-4fb3-bd18-ec18c30b36fb)
 
 
 ## Introduction
