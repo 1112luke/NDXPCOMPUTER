@@ -1,3 +1,5 @@
-# F.E.R.B (For Every Rocketry Build)
+# ⚡️🚀Notre Dame Rocketry Flight Computer🖥️⚡️
 
-## The Notre Dame Rocketry Flight Computer
+## F.E.R.B (For Every Rocketry Build)🤓
+
+
