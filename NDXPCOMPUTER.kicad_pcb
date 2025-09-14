@@ -231,7 +231,7 @@
 		(uuid "35ef84cb-3318-426f-80ea-d6dd4adb0b9b")
 		(at 140.085 111.95)
 		(property "Reference" "U2"
-			(at 0.178 -3.121 360)
+			(at 0.178 -3.121 0)
 			(layer "F.SilkS")
 			(uuid "55d4b963-31b1-41b4-a09f-61ba5a2e8a76")
 			(effects
@@ -242,7 +242,7 @@
 			)
 		)
 		(property "Value" "BMI088"
-			(at -1.2 2.965 360)
+			(at -1.2 2.965 0)
 			(layer "F.Fab")
 			(uuid "d9b8be65-f9f2-4d35-ba05-90e1c5540339")
 			(effects
@@ -253,7 +253,7 @@
 			)
 		)
 		(property "Footprint" "footprint:PQFN50P450X300X100-16N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a6a4574-49ad-4511-a084-502252845cb7")
@@ -265,7 +265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb677b2f-3fee-437e-8a6e-bbf19175fa4e")
@@ -277,7 +277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5ba8d45-5e14-4d58-b7a5-bcc159f864fd")
@@ -2693,7 +2693,7 @@
 		(descr "ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)")
 		(tags "GPS ublox NEO 6/7/8")
 		(property "Reference" "U5"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "190c1577-35da-493d-a629-6cefaf91e909")
 			(effects
@@ -2704,7 +2704,7 @@
 			)
 		)
 		(property "Value" "NEO-M9N"
-			(at 0 9.25 360)
+			(at 0 9.25 0)
 			(layer "F.Fab")
 			(uuid "db35f09c-9c5e-4715-be0e-c441515e6adc")
 			(effects
@@ -2941,7 +2941,7 @@
 			(uuid "da142995-78ec-47cc-bd4c-c7eaa3289c6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "01ccc238-4f93-461e-95f2-a6a00456318b")
 			(effects
