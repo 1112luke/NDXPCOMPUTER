@@ -4,4 +4,4 @@
 
 ## Introduction
 
-While initially designed and developed for NDXP, the application of this flight computer for most rocketry applications was heavily considered, and the result is a computer that is <i>intended</i> to be used for any and all rocketry vehicles!
+While initially designed and developed for NDXP, all vehicle applications were heavily considered during the process. The result is a computer that is <i>intended</i> to be used for any and all rocketry vehicles!
