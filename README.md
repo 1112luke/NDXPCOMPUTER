@@ -1,4 +1,4 @@
-# ⚡️🚀Notre Dame Rocketry Flight Computer🖥️⚡️
+<h1 align="center">⚡️🚀Notre Dame Rocketry Flight Computer🖥️⚡️</h1>
 
 <h2 align="center">F.E.R.B (For Every Rocketry Build) 🤓</h2>
 
