@@ -1,6 +1,6 @@
 # ⚡️🚀Notre Dame Rocketry Flight Computer🖥️⚡️
 
-## <u>F.E.R.B (For Every Rocketry Build) 🤓</u>
+## <u align="center">F.E.R.B (For Every Rocketry Build) 🤓</u>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a07edbf1-1d92-4fb3-bd18-ec18c30b36fb"></img>
