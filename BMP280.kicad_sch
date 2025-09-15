@@ -235,7 +235,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Pressure:BMP280")
-		(at 135.89 107.95 0)
+		(at 146.05 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -244,7 +244,7 @@
 		(fields_autoplaced yes)
 		(uuid "a90ef387-f48d-4f82-b306-ed38acab74d4")
 		(property "Reference" "U4"
-			(at 142.24 105.4099 0)
+			(at 152.4 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +253,7 @@
 			)
 		)
 		(property "Value" "BMP280"
-			(at 142.24 107.9499 0)
+			(at 152.4 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,7 +262,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
-			(at 135.89 125.73 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +271,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
-			(at 135.89 107.95 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +280,7 @@
 			)
 		)
 		(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
-			(at 135.89 107.95 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
