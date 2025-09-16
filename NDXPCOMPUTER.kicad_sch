@@ -271,7 +271,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 139.954 72.39 0)
+		(at 141.478 72.136 0)
 		(effects
 			(font
 				(size 2.032 2.032)
