@@ -868,9 +868,9 @@
 		)
 		(uuid "247c4657-458e-46a8-b00a-c711a1ee58ef")
 	)
-	(text "Decoupling for MCU"
+	(text "Decoupling for MCU\n8 x 100nF, 1 x 4.7uF"
 		(exclude_from_sim no)
-		(at 229.362 73.66 0)
+		(at 226.568 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)

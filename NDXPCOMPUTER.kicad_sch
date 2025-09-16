@@ -61,6 +61,36 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 123.19) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4599bc-c6c6-4fb4-9d5b-8b5fa02a153b")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 198.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329d77dc-479f-4588-8593-e3088a5d4a02")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 193.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1cd515-0314-4a00-b70a-cffaeea87e2a")
+	)
+	(wire
+		(pts
 			(xy 198.12 82.55) (xy 198.12 41.91)
 		)
 		(stroke
@@ -68,6 +98,16 @@
 			(type default)
 		)
 		(uuid "41ef0def-c16b-4c90-94b4-a2f10e06e007")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 200.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4893a50b-4a04-4dd5-8aa0-332e55d5a921")
 	)
 	(wire
 		(pts
@@ -81,6 +121,36 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 137.16) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a06d23-ed10-404c-a9cf-cc7f04ba651e")
+	)
+	(wire
+		(pts
+			(xy 200.66 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591c4d2b-0483-4c5c-8089-392406cb1f27")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7f71a5-b2d7-4588-ac86-b517c4f6e1d1")
+	)
+	(wire
+		(pts
 			(xy 198.12 41.91) (xy 204.47 41.91)
 		)
 		(stroke
@@ -88,6 +158,36 @@
 			(type default)
 		)
 		(uuid "73513434-b638-4bc1-8fec-1c6b97f23e24")
+	)
+	(wire
+		(pts
+			(xy 198.12 120.65) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744808a4-fca9-42b8-b015-f9e25f5d0382")
+	)
+	(wire
+		(pts
+			(xy 200.66 118.11) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3db205-96c5-4869-85cf-c6f7a5872cb7")
+	)
+	(wire
+		(pts
+			(xy 193.04 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fae0bd7-b277-49e0-8cac-988d96573e28")
 	)
 	(wire
 		(pts
@@ -101,6 +201,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 139.7) (xy 207.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c2e6c5-53c8-4c14-8d93-f3f3d3a9d422")
+	)
+	(wire
+		(pts
 			(xy 190.5 22.86) (xy 190.5 77.47)
 		)
 		(stroke
@@ -108,6 +218,16 @@
 			(type default)
 		)
 		(uuid "be65df2f-057b-4331-8f10-a12382c3fec6")
+	)
+	(wire
+		(pts
+			(xy 195.58 123.19) (xy 195.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd996aa-b187-4c14-9781-1f5aebab2071")
 	)
 	(wire
 		(pts
@@ -181,7 +301,7 @@
 	)
 	(sheet
 		(at 207.01 130.81)
-		(size 25.4 22.86)
+		(size 25.4 15.24)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -191,7 +311,7 @@
 		)
 		(uuid "16e7959a-598a-4fd4-86dd-9806303f6b27")
 		(property "Sheetname" "NEO-M9N"
-			(at 214.122 144.018 0)
+			(at 218.948 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,13 +320,53 @@
 			)
 		)
 		(property "Sheetfile" "NEO-M9N.kicad_sch"
-			(at 207.01 154.2546 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CS_GPS" input
+			(at 207.01 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "823f4d08-4b15-42ea-8529-7d0d43bc645d")
+		)
+		(pin "DO_GPS" input
+			(at 207.01 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3ae5bcc-498a-48b4-93bf-0b95e873203d")
+		)
+		(pin "DI_GPS" input
+			(at 207.01 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9a8e007-76e0-4709-8755-dcd05cd71d95")
+		)
+		(pin "CLK_GPS" input
+			(at 207.01 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46e09adf-7cbe-46cb-8918-d4f5d18a1870")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -286,6 +446,43 @@
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 85.09)
+		(size 31.75 34.29)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "933c923e-9649-42a5-9bc4-db8878fb4adc")
+		(property "Sheetname" "Peripherals"
+			(at 85.09 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 74.93 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "8")
 				)
 			)
 		)
@@ -475,6 +672,46 @@
 				(justify right)
 			)
 			(uuid "bddcf1a2-f929-4cfb-bd8d-468226de16ed")
+		)
+		(pin "SDI_GPS" input
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12381c82-e083-4775-90f5-05e5427725ad")
+		)
+		(pin "SCK_GPS" input
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90b5b2b3-b1ef-4724-9c73-6d319aead7b7")
+		)
+		(pin "CS_GPS" input
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ab23d5b-e84f-4ce6-9307-6a8a04279e14")
+		)
+		(pin "SDO_GPS" input
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acc2934d-0793-4ea6-9e37-1c0a44f11e72")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
