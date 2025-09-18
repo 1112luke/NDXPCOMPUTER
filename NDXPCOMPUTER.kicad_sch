@@ -733,7 +733,7 @@
 		)
 		(uuid "f8f502cd-6130-4105-9076-c7ac7eb5037b")
 		(property "Sheetname" "LSM6DSM"
-			(at 213.614 71.374 0)
+			(at 218.694 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,6 +749,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SDI_IMU_LOW" input
+			(at 204.47 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16d0a92c-fa93-4d3a-8dda-94370446dc0a")
+		)
+		(pin "SDO_IMU_LOW" input
+			(at 204.47 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e58b5621-94d7-4940-bf36-cd2700688579")
+		)
+		(pin "SCL_IMU_LOW" input
+			(at 204.47 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcd39af7-5d7a-4058-9bb3-23411f7031bc")
+		)
+		(pin "CS_IMU_LOW" input
+			(at 204.47 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af3c1daa-0f4f-49e8-8f1c-e99f9b044d9e")
+		)
+		(pin "INT_IMU_LOW" input
+			(at 204.47 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22f35f28-e6e8-4cc6-86e0-691b1365d92c")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
