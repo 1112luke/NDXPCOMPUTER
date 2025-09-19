@@ -291,7 +291,7 @@
 	)
 	(text "Magnetometer"
 		(exclude_from_sim no)
-		(at 146.05 141.478 0)
+		(at 140.97 138.938 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -511,7 +511,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 143.51)
+		(at 130.81 142.24)
 		(size 26.67 17.78)
 		(stroke
 			(width 0.1524)
@@ -522,7 +522,7 @@
 		)
 		(uuid "6ba08fd8-48fe-41d6-8cdf-5d93dab36794")
 		(property "Sheetname" "BMM350"
-			(at 144.272 153.162 0)
+			(at 139.192 151.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,13 +531,43 @@
 			)
 		)
 		(property "Sheetfile" "BMM350.kicad_sch"
-			(at 135.89 161.8746 0)
+			(at 130.81 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SCK_MAG" input
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "964b3ac3-03e9-4709-8686-dc617ba114b1")
+		)
+		(pin "SDA_MAG" input
+			(at 157.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa1cb67c-2e89-4f6e-a312-af3369a00f80")
+		)
+		(pin "INT_MAG" input
+			(at 157.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "474ff64b-02f7-45b4-a919-ee3690ab6c97")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
