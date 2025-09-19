@@ -289,6 +289,16 @@
 		)
 		(uuid "b7c75cce-8e53-462c-be97-288547ffa0f2")
 	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 146.05 141.478 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "d24b7985-73ac-487b-a16e-2fcbbe3b445e")
+	)
 	(text "GPS\n"
 		(exclude_from_sim no)
 		(at 209.55 129.032 0)
@@ -424,8 +434,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5e45f0a4-a72d-4462-856f-94f2b8339a46")
-		(property "Sheetname" "BMP280"
-			(at 214.376 105.918 0)
+		(property "Sheetname" "BMP581"
+			(at 214.63 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,10 +452,97 @@
 				(justify left top)
 			)
 		)
+		(pin "SDI_BARO" input
+			(at 208.28 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e704f30b-ab92-4885-869b-9d66de7bc128")
+		)
+		(pin "SDO_BARO" input
+			(at 208.28 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba42b176-24bf-4aff-a976-23723c5fd5a9")
+		)
+		(pin "SCK_BARO" input
+			(at 208.28 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54938ac0-bd68-44a4-965f-878a9400d6c9")
+		)
+		(pin "CS_BARO" input
+			(at 208.28 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6447672b-ec6b-4590-867d-990d05237a61")
+		)
+		(pin "INT_BARO" input
+			(at 208.28 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0301d05-293b-47c2-89d6-dc7d753cc419")
+		)
 		(instances
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 143.51)
+		(size 26.67 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ba08fd8-48fe-41d6-8cdf-5d93dab36794")
+		(property "Sheetname" "BMM350"
+			(at 144.272 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMM350.kicad_sch"
+			(at 135.89 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "9")
 				)
 			)
 		)
