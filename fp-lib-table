@@ -4,4 +4,5 @@
   (lib (name "BMP581")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/BMP581/BMP581.pretty")(options "")(descr ""))
   (lib (name "BMM350")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/BMM350/BMM350.pretty")(options "")(descr ""))
   (lib (name "Images")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/Images/Images.pretty")(options "")(descr ""))
+  (lib (name "SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/SSM3J328R/SSM3J328R.pretty")(options "")(descr ""))
 )
