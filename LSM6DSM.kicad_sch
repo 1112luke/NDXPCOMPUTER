@@ -582,6 +582,10 @@
 		(at 127 87.63)
 		(uuid "575aeaae-797f-463f-bb26-58ef85fe98cf")
 	)
+	(no_connect
+		(at 157.48 90.17)
+		(uuid "e562978b-d76d-4e9d-9344-a8c75a02965d")
+	)
 	(wire
 		(pts
 			(xy 142.24 82.55) (xy 144.78 82.55)
@@ -641,18 +645,6 @@
 			(type default)
 		)
 		(uuid "ecd54bfa-406a-4bb3-8579-b36f9b80279a")
-	)
-	(hierarchical_label "INT_IMU_LOW"
-		(shape input)
-		(at 157.48 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d80aba6-aea1-45af-8c15-8ae12366f362")
 	)
 	(hierarchical_label "SDO_IMU_LOW"
 		(shape input)

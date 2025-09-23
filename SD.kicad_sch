@@ -497,7 +497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
 			(at 179.07 91.44 0)
 			(effects
 				(font

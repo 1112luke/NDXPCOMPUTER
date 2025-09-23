@@ -4447,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 57.15) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db61443-d203-444c-afbd-87b360107545")
+	)
+	(wire
+		(pts
 			(xy 119.38 52.07) (xy 119.38 34.29)
 		)
 		(stroke
@@ -4687,6 +4697,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 158.75) (xy 172.72 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1f2684-2106-4645-81cc-49ec0b9aaba1")
+	)
+	(wire
+		(pts
 			(xy 144.78 34.29) (xy 147.32 34.29)
 		)
 		(stroke
@@ -4895,6 +4915,16 @@
 		)
 		(uuid "f098721d-28df-4d73-87b7-9ad2af3844d9")
 	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a5203a-e857-414d-b811-d8b073b41bb0")
+	)
 	(text "route as differential pair,\nresistors close to MCU"
 		(exclude_from_sim no)
 		(at 209.296 66.548 0)
@@ -5025,6 +5055,18 @@
 			)
 		)
 	)
+	(hierarchical_label "SDA_MAG"
+		(shape input)
+		(at 121.92 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d21f395-a53f-404b-b49c-2e0a3271e5aa")
+	)
 	(hierarchical_label "SDO_GYRO{slash}ACC"
 		(shape input)
 		(at 172.72 90.17 0)
@@ -5049,6 +5091,42 @@
 		)
 		(uuid "16045bf0-0196-4dd5-a302-dde233fe359c")
 	)
+	(hierarchical_label "SDI_BARO"
+		(shape input)
+		(at 179.07 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a68fafd-c8b0-47ad-95bb-e2e79f30b051")
+	)
+	(hierarchical_label "SCK_BARO"
+		(shape input)
+		(at 180.34 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f32ee90-77fd-4ce3-8306-c6bce8837f26")
+	)
+	(hierarchical_label "SCK_LOW_IMU"
+		(shape input)
+		(at 121.92 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56cd1c62-73a7-4e2f-ba89-b79961e28d50")
+	)
 	(hierarchical_label "SDI_GYRO{slash}ACC"
 		(shape input)
 		(at 172.72 156.21 0)
@@ -5060,6 +5138,30 @@
 			(justify left)
 		)
 		(uuid "597502d4-8e3f-4031-bd3a-820cb54dbb3b")
+	)
+	(hierarchical_label "PYRO_3"
+		(shape input)
+		(at 121.92 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5de15750-e355-4084-89d1-49e279c7b247")
+	)
+	(hierarchical_label "PYRO_2"
+		(shape input)
+		(at 121.92 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7300281f-0248-4f68-b3ce-b8e8aa2c809b")
 	)
 	(hierarchical_label "SCK_GYRO{slash}ACC"
 		(shape input)
@@ -5073,6 +5175,78 @@
 		)
 		(uuid "7fd1fa47-f188-44bd-9a28-7cef25191214")
 	)
+	(hierarchical_label "SDO_BARO"
+		(shape input)
+		(at 179.07 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d9fceb6-b3aa-4338-9ede-18b74da992c5")
+	)
+	(hierarchical_label "PYRO_1"
+		(shape input)
+		(at 121.92 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91de6a54-0861-4840-9e7f-62760a612cb7")
+	)
+	(hierarchical_label "SCK_MAG"
+		(shape input)
+		(at 121.92 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0b053df-3a1e-4f6f-b8e5-df4ad8b9387b")
+	)
+	(hierarchical_label "CS_BARO"
+		(shape input)
+		(at 172.72 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afcbea58-9864-4abc-b325-0f5a14bf6afa")
+	)
+	(hierarchical_label "CS_LOW_IMU"
+		(shape input)
+		(at 121.92 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4668315-5557-41bf-95f6-8c86176039f5")
+	)
+	(hierarchical_label "SDI_LOW_IMU"
+		(shape input)
+		(at 121.92 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d32feb79-383c-49d3-b9d7-29f623507d6b")
+	)
 	(hierarchical_label "CS_GYRO"
 		(shape input)
 		(at 172.72 80.01 0)
@@ -5084,6 +5258,30 @@
 			(justify left)
 		)
 		(uuid "d80e913e-e3d9-48f2-8e71-0b6abd72e4f7")
+	)
+	(hierarchical_label "SDO_LOW_IMU"
+		(shape input)
+		(at 121.92 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e218b2dd-0a26-450b-85b3-b96754dc232b")
+	)
+	(hierarchical_label "PYRO_4"
+		(shape input)
+		(at 121.92 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff389364-c4d9-4891-a20e-92b1536dc078")
 	)
 	(symbol
 		(lib_id "power:GND")

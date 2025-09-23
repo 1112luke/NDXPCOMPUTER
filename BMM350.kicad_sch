@@ -667,6 +667,10 @@
 		(color 0 0 0 0)
 		(uuid "edd0f382-138b-43b9-9408-eb5a405d3ece")
 	)
+	(no_connect
+		(at 125.73 93.98)
+		(uuid "4e18c42a-72e0-49bb-8489-d210f250ba00")
+	)
 	(wire
 		(pts
 			(xy 181.61 82.55) (xy 181.61 96.52)
@@ -828,18 +832,6 @@
 			(justify right)
 		)
 		(uuid "3fc83d37-e3ea-4790-bf93-376454d4e2fd")
-	)
-	(hierarchical_label "INT_MAG"
-		(shape input)
-		(at 125.73 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b3129140-f498-4f03-94d4-a59bef9b61d3")
 	)
 	(hierarchical_label "SDA_MAG"
 		(shape input)

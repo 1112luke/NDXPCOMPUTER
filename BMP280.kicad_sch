@@ -565,6 +565,10 @@
 		(color 0 0 0 0)
 		(uuid "8522a5b0-7a61-45f3-9a97-5e147c307183")
 	)
+	(no_connect
+		(at 154.94 95.25)
+		(uuid "75e9983e-e749-4ed7-aa22-fff31a5016ed")
+	)
 	(wire
 		(pts
 			(xy 129.54 92.71) (xy 129.54 95.25)
@@ -650,18 +654,6 @@
 			(justify left)
 		)
 		(uuid "1e0bb2be-ffa0-463b-b06a-ee24ac506dcd")
-	)
-	(hierarchical_label "INT_BARO"
-		(shape input)
-		(at 154.94 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a21238be-5ff8-4bac-b587-ee484dedd4f2")
 	)
 	(hierarchical_label "SDO_BARO"
 		(shape input)
