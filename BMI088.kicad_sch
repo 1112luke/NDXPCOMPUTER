@@ -701,6 +701,14 @@
 		(uuid "b4e8b0a0-eefc-4125-be35-91d23f49445b")
 	)
 	(no_connect
+		(at 157.48 104.14)
+		(uuid "8a9e1d2f-b3a6-4f40-8751-ada149d21d59")
+	)
+	(no_connect
+		(at 157.48 99.06)
+		(uuid "a8ad31e4-8b5f-47c2-81ff-8c7c7d8a6db9")
+	)
+	(no_connect
 		(at 157.48 106.68)
 		(uuid "d7c625bb-1d13-427d-825f-bf5b7e10d2f1")
 	)
@@ -844,18 +852,6 @@
 		)
 		(uuid "3bfaa32c-e5e5-4ae7-9fb7-3b29def86e84")
 	)
-	(hierarchical_label "GYRO_INT"
-		(shape input)
-		(at 157.48 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cc58ba8-f07c-4af3-908f-5a0820bc72bb")
-	)
 	(hierarchical_label "SDO_GYRO"
 		(shape input)
 		(at 157.48 93.98 0)
@@ -879,18 +875,6 @@
 			(justify right)
 		)
 		(uuid "6faa79cc-410c-4a3d-9fc2-caceda89be5f")
-	)
-	(hierarchical_label "ACCEL_INT"
-		(shape input)
-		(at 157.48 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8b9e5d8-20b5-4174-9067-095087224068")
 	)
 	(hierarchical_label "SCK"
 		(shape input)

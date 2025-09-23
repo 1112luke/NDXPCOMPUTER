@@ -2623,6 +2623,18 @@
 		(uuid 2fe222a7-f1a2-4ece-bf0b-648bb34b095f)
 	)
 	(rectangle
+		(start 128.27 100.33)
+		(end 218.44 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d7824b8-0b19-408b-8afd-c4d99a71d0fa)
+	)
+	(rectangle
 		(start 27.94 143.51)
 		(end 142.24 189.23)
 		(stroke
@@ -2663,6 +2675,16 @@
 			)
 		)
 		(uuid "38a3a298-4dbf-420d-bfee-e20eaeb07448")
+	)
+	(text "Global Current Sensing\n"
+		(exclude_from_sim no)
+		(at 147.32 97.282 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "68b41e40-f2d1-496f-a24f-2e782b11e721")
 	)
 	(text "Decoupling for MCU\n8 x 100nF, 1 x 4.7uF"
 		(exclude_from_sim no)

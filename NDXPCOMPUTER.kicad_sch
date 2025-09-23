@@ -9,9 +9,35 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
+	(junction
+		(at 198.12 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df135ce9-5c5b-4bec-8d93-aecee0aa0d63")
+	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 190.5 77.47)
+			(xy 190.5 26.67) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0980d1e8-7ef6-431b-ba32-23c7603f15f3")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 198.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100b5a8c-21cd-41e6-8adb-e71b01afd3a7")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -21,17 +47,27 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 85.09) (xy 195.58 34.29)
+			(xy 198.12 38.1) (xy 198.12 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17f5fe7f-f2e7-46fe-a945-454244d88b59")
+		(uuid "19210587-deb3-43dc-9d11-0c6f6111c228")
 	)
 	(wire
 		(pts
-			(xy 195.58 34.29) (xy 204.47 34.29)
+			(xy 177.8 87.63) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f1d9e0-2699-46d1-abfa-57df7dba746d")
+	)
+	(wire
+		(pts
+			(xy 187.96 34.29) (xy 204.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 22.86) (xy 204.47 22.86)
+			(xy 180.34 22.86) (xy 204.47 22.86)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 193.04 30.48)
+			(xy 182.88 80.01) (xy 182.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -91,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 82.55) (xy 198.12 41.91)
+			(xy 185.42 82.55) (xy 185.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 30.48) (xy 204.47 30.48)
+			(xy 182.88 30.48) (xy 204.47 30.48)
 		)
 		(stroke
 			(width 0)
@@ -171,6 +207,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 34.29) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ea3058-79fa-463b-b078-fba11989134a")
+	)
+	(wire
+		(pts
 			(xy 200.66 118.11) (xy 200.66 134.62)
 		)
 		(stroke
@@ -191,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 80.01) (xy 193.04 80.01)
+			(xy 177.8 80.01) (xy 182.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -211,7 +257,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 22.86) (xy 190.5 77.47)
+			(xy 180.34 22.86) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -231,17 +277,37 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 195.58 85.09)
+			(xy 204.47 38.1) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4d0bf1d-f63a-4aae-b6bb-9bf056f4570c")
+		(uuid "c7df2017-7033-4a1e-ad74-59cdc0aa2458")
 	)
 	(wire
 		(pts
-			(xy 177.8 82.55) (xy 198.12 82.55)
+			(xy 190.5 87.63) (xy 190.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc22c649-62b5-445a-87b7-ba1582a60d55")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 177.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36b7254-e0b5-41a1-baa3-76d1c00104b1")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 185.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -291,7 +357,7 @@
 	)
 	(text "Magnetometer"
 		(exclude_from_sim no)
-		(at 140.716 139.7 0)
+		(at 144.526 152.4 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -424,6 +490,43 @@
 		)
 	)
 	(sheet
+		(at 78.74 130.81)
+		(size 20.32 13.97)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3027ef3f-d137-45d9-896f-2480517a468d")
+		(property "Sheetname" "RS485"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 78.74 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 208.28 91.44)
 		(size 20.32 27.94)
 		(stroke
@@ -511,7 +614,44 @@
 		)
 	)
 	(sheet
-		(at 130.81 142.24)
+		(at 114.3 22.86)
+		(size 21.59 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "637cedd3-28e9-4fa5-b7e7-b0325a347348")
+		(property "Sheetname" "SD"
+			(at 122.682 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD.kicad_sch"
+			(at 114.046 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 154.94)
 		(size 26.67 17.78)
 		(stroke
 			(width 0.1524)
@@ -522,7 +662,7 @@
 		)
 		(uuid "6ba08fd8-48fe-41d6-8cdf-5d93dab36794")
 		(property "Sheetname" "BMM350"
-			(at 139.192 151.892 0)
+			(at 143.002 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +671,7 @@
 			)
 		)
 		(property "Sheetfile" "BMM350.kicad_sch"
-			(at 130.81 160.6046 0)
+			(at 134.62 173.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +680,7 @@
 			)
 		)
 		(pin "SCK_MAG" input
-			(at 157.48 146.05 0)
+			(at 161.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +690,7 @@
 			(uuid "964b3ac3-03e9-4709-8686-dc617ba114b1")
 		)
 		(pin "SDA_MAG" input
-			(at 157.48 148.59 0)
+			(at 161.29 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +700,7 @@
 			(uuid "aa1cb67c-2e89-4f6e-a312-af3369a00f80")
 		)
 		(pin "INT_MAG" input
-			(at 157.48 153.67 0)
+			(at 161.29 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,7 +718,7 @@
 		)
 	)
 	(sheet
-		(at 74.93 85.09)
+		(at 53.34 69.85)
 		(size 31.75 34.29)
 		(stroke
 			(width 0.1524)
@@ -589,7 +729,7 @@
 		)
 		(uuid "933c923e-9649-42a5-9bc4-db8878fb4adc")
 		(property "Sheetname" "Peripherals"
-			(at 85.09 102.616 0)
+			(at 63.5 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +738,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
-			(at 74.93 119.9646 0)
+			(at 53.34 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +756,7 @@
 	)
 	(sheet
 		(at 204.47 19.05)
-		(size 27.94 33.02)
+		(size 27.94 25.4)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -635,7 +775,7 @@
 			)
 		)
 		(property "Sheetfile" "BMI088.kicad_sch"
-			(at 203.962 53.086 0)
+			(at 203.962 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,30 +843,47 @@
 			)
 			(uuid "3da39ff6-a730-453e-9d14-bdb5853bd809")
 		)
-		(pin "ACCEL_INT" input
-			(at 204.47 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c12de844-2e19-4f8d-9b63-d6ad2bdd66cf")
-		)
-		(pin "GYRO_INT" input
-			(at 204.47 49.53 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5e896dcb-5d21-4109-aa06-b01064d1faa0")
-		)
 		(instances
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 16.51)
+		(size 27.94 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b564b3df-7c59-40c8-842a-077330153d4f")
+		(property "Sheetname" "LoRa"
+			(at 158.75 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRa.kicad_sch"
+			(at 148.59 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
+					(page "10")
 				)
 			)
 		)
@@ -770,7 +927,7 @@
 			)
 			(uuid "c736ed21-21c4-4d16-ad72-65c37376055e")
 		)
-		(pin "SCK_GYRO" input
+		(pin "SCK_GYRO{slash}ACC" input
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -778,9 +935,9 @@
 				)
 				(justify right)
 			)
-			(uuid "62635997-f90e-4610-8ac3-14b3525b9cea")
+			(uuid "acd0e93c-d653-4bd5-8ae8-0a28e33e6ac4")
 		)
-		(pin "SDI_GYRO" input
+		(pin "SDI_GYRO{slash}ACC" input
 			(at 177.8 82.55 0)
 			(effects
 				(font
@@ -788,9 +945,9 @@
 				)
 				(justify right)
 			)
-			(uuid "8706506f-df4d-4092-a2ae-a748dd49deed")
+			(uuid "ce2b4c10-afda-4aa5-962b-af91d861da15")
 		)
-		(pin "SDO_GYRO" input
+		(pin "SDO_GYRO{slash}ACC" input
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -798,47 +955,17 @@
 				)
 				(justify right)
 			)
-			(uuid "bddcf1a2-f929-4cfb-bd8d-468226de16ed")
+			(uuid "66be2bf9-cb3d-46a5-ba9c-81e252cc22b9")
 		)
-		(pin "SDI_GPS" input
-			(at 177.8 120.65 0)
+		(pin "CS_ACC" input
+			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12381c82-e083-4775-90f5-05e5427725ad")
-		)
-		(pin "SCK_GPS" input
-			(at 177.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "90b5b2b3-b1ef-4724-9c73-6d319aead7b7")
-		)
-		(pin "CS_GPS" input
-			(at 177.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6ab23d5b-e84f-4ce6-9307-6a8a04279e14")
-		)
-		(pin "SDO_GPS" input
-			(at 177.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "acc2934d-0793-4ea6-9e37-1c0a44f11e72")
+			(uuid "e9c2957f-1e68-4b19-acf7-0b05dc200607")
 		)
 		(instances
 			(project "NDXPCOMPUTER"

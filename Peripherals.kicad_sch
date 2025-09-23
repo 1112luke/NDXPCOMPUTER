@@ -2294,8 +2294,8 @@
 		(uuid 5410abcc-ee54-4b69-8f57-20a7bf14f4ca)
 	)
 	(rectangle
-		(start 189.484 99.314)
-		(end 242.824 138.684)
+		(start 212.344 120.904)
+		(end 265.684 160.274)
 		(stroke
 			(width 0)
 			(type default)
@@ -2306,8 +2306,8 @@
 		(uuid ee32bdb4-3343-4ce1-bc70-6ab722cebebe)
 	)
 	(rectangle
-		(start 189.23 45.72)
-		(end 242.57 85.09)
+		(start 212.598 72.39)
+		(end 265.938 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -2367,9 +2367,19 @@
 		)
 		(uuid "44185980-05a0-462c-986c-3441c0a3af44")
 	)
+	(text "Breakout Spare UARTS, 1x I2C, 1xSPI, 5v, 3v, "
+		(exclude_from_sim no)
+		(at 259.588 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e9b1240-9f42-4a1c-a1be-f73af4c05207")
+	)
 	(text "GPIO"
 		(exclude_from_sim no)
-		(at 191.77 97.79 0)
+		(at 214.63 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2399,7 +2409,7 @@
 	)
 	(text "PWM Output"
 		(exclude_from_sim no)
-		(at 195.072 44.45 0)
+		(at 218.44 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4039,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
-		(at 214.63 120.65 0)
+		(at 237.49 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4048,7 +4058,7 @@
 		(fields_autoplaced yes)
 		(uuid "d59f9790-6c8d-46da-8053-06fa7f12d59e")
 		(property "Reference" "J4"
-			(at 215.9 104.14 0)
+			(at 238.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4066,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Counter_Clockwise"
-			(at 215.9 106.68 0)
+			(at 238.76 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4074,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
-			(at 214.63 120.65 0)
+			(at 237.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 120.65 0)
+			(at 237.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4092,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 120.65 0)
+			(at 237.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
