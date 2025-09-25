@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Images")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/Images/Images.pretty")(options "")(descr ""))
   (lib (name "TPS513885VABR")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/TPS513885VABR/TPS513885VABR.pretty")(options "")(descr ""))
+  (lib (name "SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/SSM3J328R/SSM3J328R.pretty")(options "")(descr ""))
 )
