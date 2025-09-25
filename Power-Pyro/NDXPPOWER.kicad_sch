@@ -4860,7 +4860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 194.31 60.96 0)
 			(effects
 				(font
@@ -4967,6 +4967,76 @@
 			(project "NDXPPOWER"
 				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 237.49 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3329c8-59ef-44a2-842b-4ca5a47e0a1c")
+		(property "Reference" "J5"
+			(at 240.03 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 240.03 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6f258c8-e095-4317-9827-3efa2bfc47db")
+		)
+		(pin "1"
+			(uuid "818b6096-4911-4d1b-8ab4-356fa8a707e3")
+		)
+		(instances
+			(project "NDXPPOWER"
+				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5715,8 +5785,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7222e396-2610-43b8-a64e-6cfb2c0adc95")
-		(property "Reference" "J4"
+		(uuid "72572989-c0e8-4688-9676-9eb1d5e655cb")
+		(property "Reference" "J3"
 			(at 241.3 109.2199 90)
 			(effects
 				(font
@@ -5734,7 +5804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -5762,15 +5832,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec79c58b-b958-4f1c-88d3-55348e1a6e2e")
+			(uuid "a54404f6-775e-4752-992d-6f58dfc0cbea")
 		)
 		(pin "1"
-			(uuid "b99b42fe-53af-4c94-bf51-1e26b889a59e")
+			(uuid "2b61edb4-c012-4806-9b47-bb84674cb165")
 		)
 		(instances
 			(project "NDXPPOWER"
 				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6165,76 +6235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 237.49 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8aec7e27-2daf-4d46-9614-d3959bd289a0")
-		(property "Reference" "J3"
-			(at 240.03 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 240.03 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 237.49 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40f4772a-ac01-4a6f-8c17-4db018d279e2")
-		)
-		(pin "1"
-			(uuid "b388a233-45e9-4b9b-b495-09449584d155")
-		)
-		(instances
-			(project "NDXPPOWER"
-				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 170.18 0)
 		(unit 1)
@@ -6597,76 +6597,6 @@
 			(project "NDXPPOWER"
 				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 194.31 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a05f33ea-1381-4782-885e-59f186416e0d")
-		(property "Reference" "J2"
-			(at 196.85 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 196.85 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a68ce27-cbf3-432e-9941-44afa4481718")
-		)
-		(pin "1"
-			(uuid "7d24e792-0fe8-4bca-8e05-0d125e77bd17")
-		)
-		(instances
-			(project "NDXPPOWER"
-				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8426,6 +8356,76 @@
 			(project "NDXPPOWER"
 				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 194.31 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6a3d21-11be-497d-830e-ba4e24439b73")
+		(property "Reference" "J2"
+			(at 196.85 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 196.85 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d93aa61f-7fb2-42eb-9159-c36a7de1b1ab")
+		)
+		(pin "1"
+			(uuid "06e813f0-bb25-4be8-ac22-48ba19c1f69a")
+		)
+		(instances
+			(project "NDXPPOWER"
+				(path "/1ee7f233-f9b1-483d-87ec-2f147a4d8262"
+					(reference "J2")
 					(unit 1)
 				)
 			)
