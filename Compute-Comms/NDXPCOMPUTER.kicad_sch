@@ -1023,43 +1023,6 @@
 		)
 	)
 	(sheet
-		(at 71.12 55.88)
-		(size 25.4 22.86)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1713f0c2-87c4-4fc3-9379-51a871bad33e")
-		(property "Sheetname" "Power"
-			(at 80.264 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 71.12 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "NDXPCOMPUTER"
-				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 86.36 133.35)
 		(size 20.32 13.97)
 		(stroke
@@ -1204,7 +1167,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 35.56)
+		(at 88.9 52.07)
 		(size 21.59 16.51)
 		(stroke
 			(width 0.1524)
@@ -1215,7 +1178,7 @@
 		)
 		(uuid "637cedd3-28e9-4fa5-b7e7-b0325a347348")
 		(property "Sheetname" "SD"
-			(at 108.458 44.45 0)
+			(at 98.298 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1187,7 @@
 			)
 		)
 		(property "Sheetfile" "SD.kicad_sch"
-			(at 98.806 52.578 0)
+			(at 88.646 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
