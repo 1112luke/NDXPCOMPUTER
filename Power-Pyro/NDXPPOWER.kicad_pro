@@ -386,6 +386,26 @@
     [
       "1ee7f233-f9b1-483d-87ec-2f147a4d8262",
       "Root"
+    ],
+    [
+      "4b87ac37-3152-47db-8ee0-be473fdee678",
+      "3.3vREG"
+    ],
+    [
+      "f5b35230-816f-475f-bed9-f237b3ff10ff",
+      "5vREG"
+    ],
+    [
+      "d97e4bda-e8b9-4c0c-8657-284c28bc8cbd",
+      "CurrentSense"
+    ],
+    [
+      "c61ec7e7-ac87-4d2a-bb50-70507630b71b",
+      "Pyro"
+    ],
+    [
+      "56c6bb1e-e599-481c-ae1f-2126f1b48734",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
