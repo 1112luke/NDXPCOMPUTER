@@ -1761,6 +1761,12 @@
 		(color 0 0 0 0)
 		(uuid "28c6a75e-ab44-450d-9b62-c06fe484c8e3")
 	)
+	(junction
+		(at 99.06 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d6a0a5e-a067-4382-9a9b-aedd81b86080")
+	)
 	(no_connect
 		(at 119.38 132.08)
 		(uuid "04f528b5-c484-410b-ab4c-0138a5d80908")
@@ -2318,6 +2324,72 @@
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/933c923e-9649-42a5-9bc4-db8878fb4adc"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 99.06 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "497d1f5b-7042-44c6-a41b-ca2dabb41bb0")
+		(property "Reference" "#FLG02"
+			(at 99.06 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789779a1-ea4f-44aa-b67c-7cc9caa087dd")
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/933c923e-9649-42a5-9bc4-db8878fb4adc"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

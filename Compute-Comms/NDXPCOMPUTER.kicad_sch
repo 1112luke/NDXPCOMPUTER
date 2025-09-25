@@ -277,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 121.92 99.06)
+			(xy 102.87 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +317,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 121.92 93.98)
+			(xy 102.87 104.14) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +657,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 121.92 91.44)
+			(xy 102.87 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 121.92 96.52)
+			(xy 102.87 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1290,7 @@
 			)
 		)
 		(pin "PYRO_1" input
-			(at 102.87 91.44 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1300,7 @@
 			(uuid "b98d3c90-2d58-4dab-84ab-a7d2fddee7c3")
 		)
 		(pin "PYRO_3" input
-			(at 102.87 96.52 0)
+			(at 102.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 			(uuid "a4334911-cec0-4206-bb9f-9e629f0fd942")
 		)
 		(pin "PYRO_2" input
-			(at 102.87 93.98 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1320,7 @@
 			(uuid "d8ee2219-ee3d-401d-908a-bfc367eb3318")
 		)
 		(pin "PYRO_4" input
-			(at 102.87 99.06 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1701,7 @@
 			(uuid "abf09b15-3a9c-4be4-9ec8-e4f3935a7964")
 		)
 		(pin "PYRO_3" input
-			(at 121.92 96.52 180)
+			(at 121.92 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 			(uuid "93eebcd6-dbc0-4b2d-944c-0956adf2a6d4")
 		)
 		(pin "PYRO_1" input
-			(at 121.92 91.44 180)
+			(at 121.92 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1721,7 @@
 			(uuid "60fb0d4d-4311-43ac-bb54-7350b768eae5")
 		)
 		(pin "PYRO_2" input
-			(at 121.92 93.98 180)
+			(at 121.92 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 			(uuid "4c7f727a-c7ef-4937-ad2d-383db1a0e0f4")
 		)
 		(pin "PYRO_4" input
-			(at 121.92 99.06 180)
+			(at 121.92 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
