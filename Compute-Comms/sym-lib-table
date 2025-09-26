@@ -4,4 +4,5 @@
   (lib (name "BMP581")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/BMP581/BMP581.kicad_sym")(options "")(descr ""))
   (lib (name "TPS513885VABR")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/TPS513885VABR/TPS513885VABR.kicad_sym")(options "")(descr ""))
   (lib (name "IIS2MDCTR")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/IIS2MDCTR/IIS2MDCTR.kicad_sym")(options "")(descr ""))
+  (lib (name "TF-01A")(type "KiCad")(uri "${KIPRJMOD}/Custom_Parts/TF-01A/TF-01A.kicad_sym")(options "")(descr ""))
 )

@@ -885,7 +885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature"
 			(at 171.45 82.55 0)
 			(effects
 				(font

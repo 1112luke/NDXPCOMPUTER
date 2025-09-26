@@ -5,40 +5,42 @@
 	(uuid "0dbc6a0a-cea1-4e8d-9747-c7b1a6250b30")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Micro_SD_Card"
+		(symbol "TF-01A:TF-01A"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -16.51 15.24 0)
+			(property "Reference" "MICRO_SD"
+				(at -12.7 10.795 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
+			(property "Value" "TF-01A"
+				(at -12.7 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 29.21 7.62 0)
+			(property "Footprint" "TF-01A:TF-01A"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro SD Card Socket"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,130 +58,90 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector SD microsd"
+			(property "MF" "HRO Electronics Co., Ltd."
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "microSD*"
+			(property "Description_1" "\n                        \n                            Standard Card Edge Connectors\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Micro_SD_Card_0_1"
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TF-01A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TF-01A_0_0"
 				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 8.255)
-					(end -5.08 6.985)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
-					)
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -188,166 +150,236 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "Micro_SD_Card_1_1"
 				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 3.81)
+					(at -17.78 -5.08 0)
+					(length 5.08)
 					(name "DAT2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 3.81)
-					(name "DAT3/CD"
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "CD/DAT3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 2.54 0)
-					(length 3.81)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 5.08)
 					(name "CMD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -22.86 0 0)
-					(length 3.81)
+					(at 17.78 7.62 180)
+					(length 5.08)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -22.86 -2.54 0)
-					(length 3.81)
+				(pin bidirectional clock
+					(at -17.78 7.62 0)
+					(length 5.08)
 					(name "CLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -22.86 -5.08 0)
-					(length 3.81)
+					(at 17.78 -7.62 180)
+					(length 5.08)
 					(name "VSS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 3.81)
+					(at -17.78 0 0)
+					(length 5.08)
 					(name "DAT0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 3.81)
+					(at -17.78 -2.54 0)
+					(length 5.08)
 					(name "DAT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 20.32 -15.24 180)
-					(length 3.81)
-					(name "SHIELD"
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "CD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "9"
+					(number "CD1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -451,6 +483,22 @@
 			)
 		)
 	)
+	(junction
+		(at 170.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "733a0aee-becd-491e-a7a5-02bbc0813890")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8178d2-3931-499b-b0fe-ebde65e519e7")
+	)
 	(wire
 		(pts
 			(xy 172.72 116.84) (xy 172.72 114.3)
@@ -482,33 +530,43 @@
 		(uuid "528bc90a-051c-4148-ae07-02570a5e5251")
 	)
 	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 149.86 99.06 0)
+		(lib_id "TF-01A:TF-01A")
+		(at 152.4 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65078401-f805-492a-963d-d9fe6f360807")
-		(property "Reference" "J8"
-			(at 150.495 80.01 0)
+		(uuid "2c79dc6d-8c7e-492b-ab00-d8c5047e6859")
+		(property "Reference" "MICRO_SD1"
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card"
-			(at 150.495 82.55 0)
+		(property "Value" "TF-01A"
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
-			(at 179.07 91.44 0)
+		(property "Footprint" "TF-01A:TF-01A"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,8 +574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-			(at 149.86 99.06 0)
+		(property "Description" ""
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,46 +583,129 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro SD Card Socket"
-			(at 149.86 99.06 0)
+		(property "MF" "HRO Electronics Co., Ltd."
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "d720f415-1c31-4641-9dbc-fa7caaa77e3d")
+		(property "Description_1" "\n                        \n                            Standard Card Edge Connectors\n                        \n"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "b16561d6-e092-49ef-9081-58357a63fd9b")
+		(property "Package" "Package"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "9"
-			(uuid "d087968a-498b-44aa-91a8-d78724557187")
+		(property "Price" "None"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "82c4c2d3-3001-4968-b91f-617d1610c0e9")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "7303c83a-56b6-4ba4-98fa-c093b90acce9")
+		(property "MP" "TF-01A"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "d521f1ca-c72a-4eea-a0ed-44d75fc3a564")
+		(property "Availability" "Not in stock"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "e4e23c45-a1af-47a6-8bd9-24656db1b878")
+		(property "Check_prices" "https://www.snapeda.com/parts/TF-01A/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "ee98085f-8eab-4242-b7b2-c811d435154b")
+			(uuid "6a3ec6b4-49d2-4dec-9195-abd0ff0e1309")
+		)
+		(pin "7"
+			(uuid "e40885a2-952f-47af-8c17-fa42b4a04ea7")
+		)
+		(pin "8"
+			(uuid "0773ceb9-de5f-4d85-a981-aec62af7d71d")
+		)
+		(pin "6"
+			(uuid "a9a0e510-8bfe-4c11-bd1d-213eabb2065f")
 		)
 		(pin "2"
-			(uuid "82224aa5-37be-422a-8fab-30906bf8b71d")
+			(uuid "790746b1-cdb6-4364-914b-349a462200dc")
+		)
+		(pin "3"
+			(uuid "8bc1b098-b56b-4106-95f2-3db69018c3af")
+		)
+		(pin "1"
+			(uuid "21b39e98-ef00-4d43-8fb1-2fa8585f1840")
+		)
+		(pin "5"
+			(uuid "182b546e-b272-4d3d-a2fd-1f9881b0d69c")
+		)
+		(pin "MP2"
+			(uuid "cee143fe-dcdc-4a9b-8826-e4a82af66340")
+		)
+		(pin "MP1"
+			(uuid "42b3b552-5455-4e8e-8f7b-78127bd7f024")
+		)
+		(pin "CD1"
+			(uuid "54067cb5-4529-44f7-8c39-e748d3a3be97")
+		)
+		(pin "MP3"
+			(uuid "f2548e93-cf51-4a2a-9573-a82b7588f2cc")
+		)
+		(pin "MP4"
+			(uuid "94e7f30c-5568-40ac-bf0e-835865d17204")
 		)
 		(instances
 			(project ""
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/637cedd3-28e9-4fa5-b7e7-b0325a347348"
-					(reference "J8")
+					(reference "MICRO_SD1")
 					(unit 1)
 				)
 			)
