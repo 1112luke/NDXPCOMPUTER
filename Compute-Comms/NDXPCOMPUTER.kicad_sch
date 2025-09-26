@@ -875,6 +875,26 @@
 		)
 		(uuid "fad2d67c-7fed-4a6d-9925-82bda18bc0b4")
 	)
+	(text "make sure all i2c have pullup resistors\nConnect SD Card\nRework GPS for UART\nAdd Servo PWM pads in Peripherals\nWire Breakout Pads\n"
+		(exclude_from_sim no)
+		(at 87.376 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "129b3e80-277d-44c5-b239-ed4e4bb4d1dc")
+	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 87.63 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3e3653e6-b45b-4a4b-824f-089325930dde")
+	)
 	(text "Barometer"
 		(exclude_from_sim no)
 		(at 206.502 101.092 0)

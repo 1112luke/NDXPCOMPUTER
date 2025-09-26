@@ -15,7 +15,7 @@
 		)
 		(uuid "4034eeff-e137-4997-a43b-d4b1b6db4af8")
 	)
-	(text "Running off 2-4S Lipo.\n3.3v Regulator\n5v Regulator\ncurrent sensing ICs\nResettable fuses on Pyro Channels"
+	(text "Running off 2-4S Lipo.\n3.3v Regulator\n5v Regulator\ncurrent sensing ICs\nResettable fuses on Pyro Channels\ncool leds for pyto and whatnot\n"
 		(exclude_from_sim no)
 		(at 35.306 31.496 0)
 		(effects
