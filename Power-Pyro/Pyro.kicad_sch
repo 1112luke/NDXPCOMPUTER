@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7d1e64cc-8c41-42a5-b604-b4ede6ccb223")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,14 +76,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -96,14 +98,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -143,9 +145,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -264,9 +269,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -357,18 +365,6 @@
 			(symbol "NMOS_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -381,7 +377,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -405,34 +413,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -463,6 +447,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -487,59 +528,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -551,6 +541,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -577,9 +585,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -670,6 +681,18 @@
 			(symbol "PMOS_0_1"
 				(polyline
 					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
@@ -682,7 +705,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -704,60 +751,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -774,6 +772,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -800,59 +844,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -864,6 +857,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -890,12 +901,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -967,7 +983,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -979,7 +995,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1010,12 +1026,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1106,7 +1127,110 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 91.44 46.99)
+		(end 196.85 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e2f3e025-34be-4463-b02c-9ce0fb11105e)
+	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 145.288 17.526 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "2abc85c3-f2c2-4745-8ab0-c8d315cb4e90")
+	)
+	(text "SSM3J328R PMOS\n"
+		(exclude_from_sim no)
+		(at 105.664 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "330a6c13-a8fe-4916-b0c8-454b6f3a9206")
+	)
+	(text "SSM3J328R PMOS\n"
+		(exclude_from_sim no)
+		(at 148.844 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37719a63-268e-4cb2-8032-1cc158b3d89f")
+	)
+	(text "Use this for VBAT level Pyro"
+		(exclude_from_sim no)
+		(at 138.43 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55b61b54-0d13-4391-8790-3f9f98ed1de5")
+	)
+	(text "Pyro Channels"
+		(exclude_from_sim no)
+		(at 106.426 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60f73c84-8477-4c82-84b9-66fd10a81ff4")
+	)
+	(text "Found this pmos by digikey, 20v, in stock, \npmos, scrolling for high amperage"
+		(exclude_from_sim no)
+		(at 104.648 49.276 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "6af7d4a5-18fc-49d1-bfe6-2db09aaea8df")
+	)
+	(text "SSM3J328R PMOS\n"
+		(exclude_from_sim no)
+		(at 105.664 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d714d20-2c78-47fa-a71e-f103fedae725")
+	)
+	(text "Create footprint for\nhttps://www.mouser.com/ProductDetail/Molex/39889-0042?qs=OfOG5bLMyOcu2%252Bhemy5jvg%3D%3D&mgh=1&utm_id=22178445487&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amermsp&gad_source=1&gad_campaignid=22289026790&gbraid=0AAAAADn_wf2jXYbmZFJ3c6V9EkeUTSg3u&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp19Xm_lkZKpEVxTIOIfikuZ44r7pqMOigeKIZj7t-NTJC4OT8JmoDcaAmurEALw_wcB"
+		(exclude_from_sim no)
+		(at 146.304 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d89856b-ce76-46d6-9563-1ca7367ee043")
+	)
+	(text "SSM3J328R PMOS\n"
+		(exclude_from_sim no)
+		(at 150.114 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d3b4a5c-0fc4-4984-b81b-37e63ff7d405")
 	)
 	(junction
 		(at 130.81 87.63)
@@ -1720,112 +1844,9 @@
 		)
 		(uuid "fdcd201b-87c2-41ac-9be3-c1511e53032e")
 	)
-	(rectangle
-		(start 91.44 46.99)
-		(end 196.85 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e2f3e025-34be-4463-b02c-9ce0fb11105e)
-	)
-	(text "TODO"
-		(exclude_from_sim no)
-		(at 145.288 17.526 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-		)
-		(uuid "2abc85c3-f2c2-4745-8ab0-c8d315cb4e90")
-	)
-	(text "SSM3J328R PMOS\n"
-		(exclude_from_sim no)
-		(at 105.664 56.642 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "330a6c13-a8fe-4916-b0c8-454b6f3a9206")
-	)
-	(text "SSM3J328R PMOS\n"
-		(exclude_from_sim no)
-		(at 148.844 57.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37719a63-268e-4cb2-8032-1cc158b3d89f")
-	)
-	(text "Use this for VBAT level Pyro"
-		(exclude_from_sim no)
-		(at 138.43 49.022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "55b61b54-0d13-4391-8790-3f9f98ed1de5")
-	)
-	(text "Pyro Channels"
-		(exclude_from_sim no)
-		(at 106.426 45.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60f73c84-8477-4c82-84b9-66fd10a81ff4")
-	)
-	(text "Found this pmos by digikey, 20v, in stock, \npmos, scrolling for high amperage"
-		(exclude_from_sim no)
-		(at 104.648 49.276 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "6af7d4a5-18fc-49d1-bfe6-2db09aaea8df")
-	)
-	(text "SSM3J328R PMOS\n"
-		(exclude_from_sim no)
-		(at 105.664 104.902 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d714d20-2c78-47fa-a71e-f103fedae725")
-	)
-	(text "Create footprint for\nhttps://www.mouser.com/ProductDetail/Molex/39889-0042?qs=OfOG5bLMyOcu2%252Bhemy5jvg%3D%3D&mgh=1&utm_id=22178445487&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amermsp&gad_source=1&gad_campaignid=22289026790&gbraid=0AAAAADn_wf2jXYbmZFJ3c6V9EkeUTSg3u&gclid=Cj0KCQjw0NPGBhCDARIsAGAzpp19Xm_lkZKpEVxTIOIfikuZ44r7pqMOigeKIZj7t-NTJC4OT8JmoDcaAmurEALw_wcB"
-		(exclude_from_sim no)
-		(at 146.304 23.368 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8d89856b-ce76-46d6-9563-1ca7367ee043")
-	)
-	(text "SSM3J328R PMOS\n"
-		(exclude_from_sim no)
-		(at 150.114 106.172 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d3b4a5c-0fc4-4984-b81b-37e63ff7d405")
-	)
 	(hierarchical_label "PYRO_3"
 		(shape input)
 		(at 123.19 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1858,6 @@
 	(hierarchical_label "PYRO_4"
 		(shape input)
 		(at 167.64 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1849,7 +1869,6 @@
 	(hierarchical_label "PYRO_2"
 		(shape input)
 		(at 166.37 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,7 +1880,6 @@
 	(hierarchical_label "PYRO_1"
 		(shape input)
 		(at 123.19 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
