@@ -4353,7 +4353,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+BATT"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -4370,7 +4370,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+BATT"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -4396,7 +4396,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4405,7 +4405,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4414,7 +4414,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+BATT_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4452,7 +4452,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -7742,6 +7742,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 69.85 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba4a35f-6e42-49d8-9693-5d6d7f9435a1")
+		(property "Reference" "#PWR01"
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0c434e8-79dc-4abe-82e8-93547cecda92")
+		)
+		(instances
+			(project ""
+				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/cb1b5cf1-a55c-42cc-b365-bf5ffcf1d58e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 58.42 0)
 		(unit 1)
@@ -8525,72 +8591,6 @@
 			(project "NDXPCOMPUTER"
 				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/cb1b5cf1-a55c-42cc-b365-bf5ffcf1d58e"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4173a48-4e2c-49b3-b390-973361429674")
-		(property "Reference" "#PWR01"
-			(at 69.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec22f0a0-286f-4639-9690-43338129b3c5")
-		)
-		(instances
-			(project "NDXPCOMPUTER"
-				(path "/880cd2ad-ee8a-45d0-bf92-2f93a861aac0/cb1b5cf1-a55c-42cc-b365-bf5ffcf1d58e"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

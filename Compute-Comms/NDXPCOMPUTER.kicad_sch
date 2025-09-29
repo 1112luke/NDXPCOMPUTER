@@ -875,9 +875,9 @@
 		)
 		(uuid "fad2d67c-7fed-4a6d-9925-82bda18bc0b4")
 	)
-	(text "make sure all i2c have pullup resistors\nConnect SD Card\nRework GPS for UART\nAdd Servo PWM pads in Peripherals\nWire Breakout Pads\n"
+	(text "make sure all i2c have pullup resistors\nConnect SD Card\nRework GPS for UART\nAdd Servo PWM pads in Peripherals\nWire Breakout Pads\nAdd cool leds\n"
 		(exclude_from_sim no)
-		(at 87.376 32.766 0)
+		(at 87.376 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
