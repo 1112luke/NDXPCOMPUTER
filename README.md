@@ -9,10 +9,8 @@
 <h4 align="center">This is the repository for the HARDWARE DESIGN ONLY. Software for the computer can be found <a href="https://github.com/1112luke/NDXP_COMPUTER_SOFTWARE">here</a></h4>
 
 <p align="center">
-  <img width="50%" alt="Screenshot 2025-09-30 at 10 25 00 AM" src="https://github.com/user-attachments/assets/08e0f672-49ed-49ac-9120-caac6c8f4ba9" />
-  <img width="50%" alt="Screenshot 2025-09-30 at 10 24 24 AM" src="https://github.com/user-attachments/assets/39181e6a-5c09-447b-8862-77c95db1ab2a" />
-  
-
+  <img width="45%" alt="Screenshot 2025-09-30 at 10 25 00 AM" src="https://github.com/user-attachments/assets/08e0f672-49ed-49ac-9120-caac6c8f4ba9" />
+  <img width="45%" alt="Screenshot 2025-09-30 at 10 24 24 AM" src="https://github.com/user-attachments/assets/39181e6a-5c09-447b-8862-77c95db1ab2a" />
 </p>
 
 ## Introduction
