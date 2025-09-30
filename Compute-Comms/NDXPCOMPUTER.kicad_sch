@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "880cd2ad-ee8a-45d0-bf92-2f93a861aac0")
 	(paper "A4")
 	(title_block
@@ -9,6 +9,96 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
+	(text "make sure all i2c have pullup resistors\nConnect SD Card\nRework GPS for UART\nAdd Servo PWM pads in Peripherals\nWire Breakout Pads\nAdd cool leds\n"
+		(exclude_from_sim no)
+		(at 87.376 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "129b3e80-277d-44c5-b239-ed4e4bb4d1dc")
+	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 87.63 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3e3653e6-b45b-4a4b-824f-089325930dde")
+	)
+	(text "Barometer"
+		(exclude_from_sim no)
+		(at 206.502 101.092 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "47e5abcf-37aa-49ac-9122-a522670b41bd")
+	)
+	(text "Low-G IMU"
+		(exclude_from_sim no)
+		(at 198.374 60.452 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "54ee0cab-4af0-479a-a15a-7c327eba076c")
+	)
+	(text "TODO: Rework for UART"
+		(exclude_from_sim no)
+		(at 208.788 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5764d981-d3fc-41c7-bfe3-b4c6804cc40b")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 126.238 74.676 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "afa0a4ea-9e23-4dc2-9719-41b6bfebd168")
+	)
+	(text "High-G IMU"
+		(exclude_from_sim no)
+		(at 198.882 19.812 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "b7c75cce-8e53-462c-be97-288547ffa0f2")
+	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 131.064 147.066 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "d24b7985-73ac-487b-a16e-2fcbbe3b445e")
+	)
+	(text "GPS\n"
+		(exclude_from_sim no)
+		(at 194.31 131.572 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "fb9471b3-e357-48b6-ab2a-9f8e0e5bc123")
+	)
 	(junction
 		(at 182.88 44.45)
 		(diameter 0)
@@ -875,99 +965,13 @@
 		)
 		(uuid "fad2d67c-7fed-4a6d-9925-82bda18bc0b4")
 	)
-	(text "make sure all i2c have pullup resistors\nConnect SD Card\nRework GPS for UART\nAdd Servo PWM pads in Peripherals\nWire Breakout Pads\nAdd cool leds\n"
-		(exclude_from_sim no)
-		(at 87.376 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "129b3e80-277d-44c5-b239-ed4e4bb4d1dc")
-	)
-	(text "TODO"
-		(exclude_from_sim no)
-		(at 87.63 25.4 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "3e3653e6-b45b-4a4b-824f-089325930dde")
-	)
-	(text "Barometer"
-		(exclude_from_sim no)
-		(at 206.502 101.092 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "47e5abcf-37aa-49ac-9122-a522670b41bd")
-	)
-	(text "Low-G IMU"
-		(exclude_from_sim no)
-		(at 198.374 60.452 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "54ee0cab-4af0-479a-a15a-7c327eba076c")
-	)
-	(text "TODO: Rework for UART"
-		(exclude_from_sim no)
-		(at 208.788 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5764d981-d3fc-41c7-bfe3-b4c6804cc40b")
-	)
-	(text "MCU"
-		(exclude_from_sim no)
-		(at 126.238 74.676 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "afa0a4ea-9e23-4dc2-9719-41b6bfebd168")
-	)
-	(text "High-G IMU"
-		(exclude_from_sim no)
-		(at 198.882 19.812 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "b7c75cce-8e53-462c-be97-288547ffa0f2")
-	)
-	(text "Magnetometer"
-		(exclude_from_sim no)
-		(at 131.064 147.066 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "d24b7985-73ac-487b-a16e-2fcbbe3b445e")
-	)
-	(text "GPS\n"
-		(exclude_from_sim no)
-		(at 194.31 131.572 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "fb9471b3-e357-48b6-ab2a-9f8e0e5bc123")
-	)
 	(sheet
 		(at 191.77 133.35)
 		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -996,43 +1000,43 @@
 		)
 		(pin "CS_GPS" input
 			(at 191.77 137.16 180)
+			(uuid "823f4d08-4b15-42ea-8529-7d0d43bc645d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "823f4d08-4b15-42ea-8529-7d0d43bc645d")
 		)
 		(pin "DO_GPS" input
 			(at 191.77 139.7 180)
+			(uuid "f3ae5bcc-498a-48b4-93bf-0b95e873203d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f3ae5bcc-498a-48b4-93bf-0b95e873203d")
 		)
 		(pin "DI_GPS" input
 			(at 191.77 142.24 180)
+			(uuid "b9a8e007-76e0-4709-8755-dcd05cd71d95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b9a8e007-76e0-4709-8755-dcd05cd71d95")
 		)
 		(pin "CLK_GPS" input
 			(at 191.77 144.78 180)
+			(uuid "46e09adf-7cbe-46cb-8918-d4f5d18a1870")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "46e09adf-7cbe-46cb-8918-d4f5d18a1870")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1045,6 +1049,10 @@
 	(sheet
 		(at 86.36 133.35)
 		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1073,33 +1081,33 @@
 		)
 		(pin "TX_RS485" input
 			(at 106.68 137.16 0)
+			(uuid "942e7f6d-f923-42c2-aa7c-76fcd652f9c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "942e7f6d-f923-42c2-aa7c-76fcd652f9c7")
 		)
 		(pin "RX_RS485" input
 			(at 106.68 142.24 0)
+			(uuid "0c578b8c-6a00-4a15-8883-f19847cac9a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0c578b8c-6a00-4a15-8883-f19847cac9a3")
 		)
 		(pin "DIR_RS485" input
 			(at 106.68 144.78 0)
+			(uuid "e873fde5-cc4f-429a-9ade-350ab17a7763")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e873fde5-cc4f-429a-9ade-350ab17a7763")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1112,6 +1120,10 @@
 	(sheet
 		(at 198.12 102.87)
 		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1140,43 +1152,43 @@
 		)
 		(pin "SDI_BARO" input
 			(at 198.12 105.41 180)
+			(uuid "e704f30b-ab92-4885-869b-9d66de7bc128")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e704f30b-ab92-4885-869b-9d66de7bc128")
 		)
 		(pin "SDO_BARO" input
 			(at 198.12 107.95 180)
+			(uuid "ba42b176-24bf-4aff-a976-23723c5fd5a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba42b176-24bf-4aff-a976-23723c5fd5a9")
 		)
 		(pin "SCK_BARO" input
 			(at 198.12 115.57 180)
+			(uuid "54938ac0-bd68-44a4-965f-878a9400d6c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "54938ac0-bd68-44a4-965f-878a9400d6c9")
 		)
 		(pin "CS_BARO" input
 			(at 198.12 118.11 180)
+			(uuid "6447672b-ec6b-4590-867d-990d05237a61")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6447672b-ec6b-4590-867d-990d05237a61")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1189,6 +1201,10 @@
 	(sheet
 		(at 88.9 52.07)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1226,6 +1242,10 @@
 	(sheet
 		(at 120.65 148.59)
 		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1254,23 +1274,23 @@
 		)
 		(pin "SDA_MAG" input
 			(at 147.32 154.94 0)
+			(uuid "aa1cb67c-2e89-4f6e-a312-af3369a00f80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aa1cb67c-2e89-4f6e-a312-af3369a00f80")
 		)
 		(pin "SCL_MAG" input
 			(at 147.32 152.4 0)
+			(uuid "e0560357-11a3-4a8b-86e8-8aa6277f6b53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0560357-11a3-4a8b-86e8-8aa6277f6b53")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1283,6 +1303,10 @@
 	(sheet
 		(at 71.12 87.63)
 		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1311,43 +1335,43 @@
 		)
 		(pin "PYRO_1" input
 			(at 102.87 101.6 0)
+			(uuid "b98d3c90-2d58-4dab-84ab-a7d2fddee7c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b98d3c90-2d58-4dab-84ab-a7d2fddee7c3")
 		)
 		(pin "PYRO_3" input
 			(at 102.87 106.68 0)
+			(uuid "a4334911-cec0-4206-bb9f-9e629f0fd942")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a4334911-cec0-4206-bb9f-9e629f0fd942")
 		)
 		(pin "PYRO_2" input
 			(at 102.87 104.14 0)
+			(uuid "d8ee2219-ee3d-401d-908a-bfc367eb3318")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8ee2219-ee3d-401d-908a-bfc367eb3318")
 		)
 		(pin "PYRO_4" input
 			(at 102.87 109.22 0)
+			(uuid "fd10030b-c626-4299-bec9-73051965c6c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fd10030b-c626-4299-bec9-73051965c6c7")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1360,6 +1384,10 @@
 	(sheet
 		(at 189.23 21.59)
 		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1388,63 +1416,63 @@
 		)
 		(pin "CS_GYRO" input
 			(at 189.23 25.4 180)
+			(uuid "afdad376-1230-4c27-9db2-023c823a0aa9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "afdad376-1230-4c27-9db2-023c823a0aa9")
 		)
 		(pin "CS_ACCEL" input
 			(at 189.23 29.21 180)
+			(uuid "1cef0264-5c9e-4261-8990-45e6995fa1d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1cef0264-5c9e-4261-8990-45e6995fa1d2")
 		)
 		(pin "SCK" input
 			(at 189.23 33.02 180)
+			(uuid "e0bfa251-9188-426c-b0d4-717467979a8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e0bfa251-9188-426c-b0d4-717467979a8c")
 		)
 		(pin "SDI" input
 			(at 189.23 36.83 180)
+			(uuid "b20cebfa-82bd-4a37-a398-651589907d21")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b20cebfa-82bd-4a37-a398-651589907d21")
 		)
 		(pin "SDO_ACCEL" input
 			(at 189.23 40.64 180)
+			(uuid "b9cc77d1-6982-4d10-9173-b46f8caefb79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b9cc77d1-6982-4d10-9173-b46f8caefb79")
 		)
 		(pin "SDO_GYRO" input
 			(at 189.23 44.45 180)
+			(uuid "3da39ff6-a730-453e-9d14-bdb5853bd809")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3da39ff6-a730-453e-9d14-bdb5853bd809")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1457,6 +1485,10 @@
 	(sheet
 		(at 130.81 31.75)
 		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1485,53 +1517,53 @@
 		)
 		(pin "SDO_LORA" input
 			(at 146.05 46.99 270)
+			(uuid "14ed6d76-ae0e-4c46-b495-bb7cc9fc201e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14ed6d76-ae0e-4c46-b495-bb7cc9fc201e")
 		)
 		(pin "RST_LORA" input
 			(at 133.35 46.99 270)
+			(uuid "b5a8fbd4-4b83-439e-b038-eca389fc4085")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b5a8fbd4-4b83-439e-b038-eca389fc4085")
 		)
 		(pin "CS_LORA" input
 			(at 135.89 46.99 270)
+			(uuid "6c3344b3-d6f7-4465-9176-9e7e7526673f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c3344b3-d6f7-4465-9176-9e7e7526673f")
 		)
 		(pin "SCK_LORA" input
 			(at 138.43 46.99 270)
+			(uuid "adb32efc-97dd-4c9f-bc4b-94fb8006ad76")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "adb32efc-97dd-4c9f-bc4b-94fb8006ad76")
 		)
 		(pin "SDI_LORA" input
 			(at 148.59 46.99 270)
+			(uuid "f70da958-c1fc-48b9-8b50-9355b8632ca1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f70da958-c1fc-48b9-8b50-9355b8632ca1")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1544,6 +1576,10 @@
 	(sheet
 		(at 121.92 76.2)
 		(size 40.64 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1572,273 +1608,273 @@
 		)
 		(pin "CS_GYRO" input
 			(at 162.56 80.01 0)
+			(uuid "c736ed21-21c4-4d16-ad72-65c37376055e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c736ed21-21c4-4d16-ad72-65c37376055e")
 		)
 		(pin "SCK_GYRO{slash}ACC" input
 			(at 162.56 82.55 0)
+			(uuid "acd0e93c-d653-4bd5-8ae8-0a28e33e6ac4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "acd0e93c-d653-4bd5-8ae8-0a28e33e6ac4")
 		)
 		(pin "SDI_GYRO{slash}ACC" input
 			(at 162.56 85.09 0)
+			(uuid "ce2b4c10-afda-4aa5-962b-af91d861da15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ce2b4c10-afda-4aa5-962b-af91d861da15")
 		)
 		(pin "SDO_GYRO{slash}ACC" input
 			(at 162.56 87.63 0)
+			(uuid "66be2bf9-cb3d-46a5-ba9c-81e252cc22b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66be2bf9-cb3d-46a5-ba9c-81e252cc22b9")
 		)
 		(pin "CS_ACC" input
 			(at 162.56 90.17 0)
+			(uuid "e9c2957f-1e68-4b19-acf7-0b05dc200607")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e9c2957f-1e68-4b19-acf7-0b05dc200607")
 		)
 		(pin "CS_LOW_IMU" input
 			(at 162.56 95.25 0)
+			(uuid "d9b49398-2fdb-46ab-b3a1-6f8a65232a36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9b49398-2fdb-46ab-b3a1-6f8a65232a36")
 		)
 		(pin "SDI_LOW_IMU" input
 			(at 162.56 97.79 0)
+			(uuid "c119c141-9463-4350-bf06-c644280bbbd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c119c141-9463-4350-bf06-c644280bbbd6")
 		)
 		(pin "SCK_LOW_IMU" input
 			(at 162.56 100.33 0)
+			(uuid "fe5006bc-37bc-4831-8af4-c2258640b792")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe5006bc-37bc-4831-8af4-c2258640b792")
 		)
 		(pin "SDO_LOW_IMU" input
 			(at 162.56 102.87 0)
+			(uuid "24e909f0-b8b5-4072-8ba3-9f84c8509e5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "24e909f0-b8b5-4072-8ba3-9f84c8509e5b")
 		)
 		(pin "SDO_BARO" input
 			(at 162.56 107.95 0)
+			(uuid "3f8891e9-6c0a-409e-b56d-921ba30384b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f8891e9-6c0a-409e-b56d-921ba30384b0")
 		)
 		(pin "SDI_BARO" input
 			(at 162.56 110.49 0)
+			(uuid "344f3517-5f79-44ac-af71-f01a2d676619")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "344f3517-5f79-44ac-af71-f01a2d676619")
 		)
 		(pin "CS_BARO" input
 			(at 162.56 115.57 0)
+			(uuid "eebb8f12-bfa4-4404-8d4d-05d8a769edef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eebb8f12-bfa4-4404-8d4d-05d8a769edef")
 		)
 		(pin "SCK_BARO" input
 			(at 162.56 113.03 0)
+			(uuid "0df46466-5860-41ab-8b94-ec834e6b0da9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0df46466-5860-41ab-8b94-ec834e6b0da9")
 		)
 		(pin "SDA_MAG" input
 			(at 151.13 132.08 270)
+			(uuid "3fb37832-599e-4a4c-83f2-5cacf7eb4fd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3fb37832-599e-4a4c-83f2-5cacf7eb4fd2")
 		)
 		(pin "SCK_MAG" input
 			(at 153.67 132.08 270)
+			(uuid "abf09b15-3a9c-4be4-9ec8-e4f3935a7964")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abf09b15-3a9c-4be4-9ec8-e4f3935a7964")
 		)
 		(pin "PYRO_3" input
 			(at 121.92 106.68 180)
+			(uuid "93eebcd6-dbc0-4b2d-944c-0956adf2a6d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93eebcd6-dbc0-4b2d-944c-0956adf2a6d4")
 		)
 		(pin "PYRO_1" input
 			(at 121.92 101.6 180)
+			(uuid "60fb0d4d-4311-43ac-bb54-7350b768eae5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "60fb0d4d-4311-43ac-bb54-7350b768eae5")
 		)
 		(pin "PYRO_2" input
 			(at 121.92 104.14 180)
+			(uuid "4c7f727a-c7ef-4937-ad2d-383db1a0e0f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c7f727a-c7ef-4937-ad2d-383db1a0e0f4")
 		)
 		(pin "PYRO_4" input
 			(at 121.92 109.22 180)
+			(uuid "9e7bdddf-f571-4487-85cd-2059d01b4611")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9e7bdddf-f571-4487-85cd-2059d01b4611")
 		)
 		(pin "TX_RS485" input
 			(at 121.92 123.19 180)
+			(uuid "83a659a6-1eae-4eb8-a1cd-b0a3a776475d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "83a659a6-1eae-4eb8-a1cd-b0a3a776475d")
 		)
 		(pin "RX_RS485" input
 			(at 121.92 125.73 180)
+			(uuid "bd42adf1-13f1-4729-8f74-0db6f921e004")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd42adf1-13f1-4729-8f74-0db6f921e004")
 		)
 		(pin "DIR_RS485" input
 			(at 121.92 128.27 180)
+			(uuid "238256ae-7bb9-488e-aef6-c1fbb34d3584")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "238256ae-7bb9-488e-aef6-c1fbb34d3584")
 		)
 		(pin "RST_LORA" input
 			(at 132.08 76.2 90)
+			(uuid "f9804854-a14c-4b58-8b5b-4417bb600337")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f9804854-a14c-4b58-8b5b-4417bb600337")
 		)
 		(pin "CS_LORA" input
 			(at 134.62 76.2 90)
+			(uuid "932d9a5a-19fa-45c9-b0e2-284775728213")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "932d9a5a-19fa-45c9-b0e2-284775728213")
 		)
 		(pin "SCK_LORA" input
 			(at 137.16 76.2 90)
+			(uuid "4665efa5-2c2d-4755-8fce-980a7772539a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4665efa5-2c2d-4755-8fce-980a7772539a")
 		)
 		(pin "SDI_LORA" input
 			(at 139.7 76.2 90)
+			(uuid "77f4149a-c9e2-4ce8-9f0b-e082c0de5b3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "77f4149a-c9e2-4ce8-9f0b-e082c0de5b3b")
 		)
 		(pin "SDO_LORA" input
 			(at 142.24 76.2 90)
+			(uuid "06046d43-7b79-4400-bdaf-ad514e940c5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "06046d43-7b79-4400-bdaf-ad514e940c5c")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1851,6 +1887,10 @@
 	(sheet
 		(at 189.23 62.23)
 		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1879,43 +1919,43 @@
 		)
 		(pin "SDI_IMU_LOW" input
 			(at 189.23 67.31 180)
+			(uuid "16d0a92c-fa93-4d3a-8dda-94370446dc0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16d0a92c-fa93-4d3a-8dda-94370446dc0a")
 		)
 		(pin "SDO_IMU_LOW" input
 			(at 189.23 69.85 180)
+			(uuid "e58b5621-94d7-4940-bf36-cd2700688579")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e58b5621-94d7-4940-bf36-cd2700688579")
 		)
 		(pin "SCL_IMU_LOW" input
 			(at 189.23 76.2 180)
+			(uuid "fcd39af7-5d7a-4058-9bb3-23411f7031bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fcd39af7-5d7a-4058-9bb3-23411f7031bc")
 		)
 		(pin "CS_IMU_LOW" input
 			(at 189.23 78.74 180)
+			(uuid "af3c1daa-0f4f-49e8-8f1c-e99f9b044d9e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af3c1daa-0f4f-49e8-8f1c-e99f9b044d9e")
 		)
 		(instances
 			(project "NDXPCOMPUTER"
@@ -1930,4 +1970,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
